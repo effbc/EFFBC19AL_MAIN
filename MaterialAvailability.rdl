@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Prod__Order_Component__Production_Plan_Date_">
+          <DataField>Prod__Order_Component__Production_Plan_Date_</DataField>
+        </Field>
+        <Field Name="Prod__Order_Component_Status">
+          <DataField>Prod__Order_Component_Status</DataField>
+        </Field>
+        <Field Name="Prod__Order_Component_Prod__Order_No_">
+          <DataField>Prod__Order_Component_Prod__Order_No_</DataField>
+        </Field>
+        <Field Name="Prod__Order_Component_Prod__Order_Line_No_">
+          <DataField>Prod__Order_Component_Prod__Order_Line_No_</DataField>
+        </Field>
+        <Field Name="Prod__Order_Component_Line_No_">
+          <DataField>Prod__Order_Component_Line_No_</DataField>
+        </Field>
+        <Field Name="Planned_Purchase_Date_">
+          <DataField>Planned_Purchase_Date_</DataField>
+        </Field>
+        <Field Name="Sales_Line__Sales_Line___Material_Reuired_Date_">
+          <DataField>Sales_Line__Sales_Line___Material_Reuired_Date_</DataField>
+        </Field>
+        <Field Name="Dum__Reorder_Quantity_">
+          <DataField>Dum__Reorder_Quantity_</DataField>
+        </Field>
+        <Field Name="Dum__Reorder_Quantity_Format">
+          <DataField>Dum__Reorder_Quantity_Format</DataField>
+        </Field>
+        <Field Name="To_Be_Shipped_Qty__Dum__Maximum_Inventory_">
+          <DataField>To_Be_Shipped_Qty__Dum__Maximum_Inventory_</DataField>
+        </Field>
+        <Field Name="To_Be_Shipped_Qty__Dum__Maximum_Inventory_Format">
+          <DataField>To_Be_Shipped_Qty__Dum__Maximum_Inventory_Format</DataField>
+        </Field>
+        <Field Name="Dum__Safety_Lead_Time_">
+          <DataField>Dum__Safety_Lead_Time_</DataField>
+        </Field>
+        <Field Name="Sales_Line__Unit_of_Measure_Code_">
+          <DataField>Sales_Line__Unit_of_Measure_Code_</DataField>
+        </Field>
+        <Field Name="Sales_Line_Description">
+          <DataField>Sales_Line_Description</DataField>
+        </Field>
+        <Field Name="Sales_Line__Document_No__">
+          <DataField>Sales_Line__Document_No__</DataField>
+        </Field>
+        <Field Name="Sales_Line__To_Be_Shipped_Qty_">
+          <DataField>Sales_Line__To_Be_Shipped_Qty_</DataField>
+        </Field>
+        <Field Name="Sales_Line__To_Be_Shipped_Qty_Format">
+          <DataField>Sales_Line__To_Be_Shipped_Qty_Format</DataField>
+        </Field>
+        <Field Name="Sales_Bout_s_PlanCaption">
+          <DataField>Sales_Bout_s_PlanCaption</DataField>
+        </Field>
+        <Field Name="Planned_Purchase_DateCaption">
+          <DataField>Planned_Purchase_DateCaption</DataField>
+        </Field>
+        <Field Name="Dispatch_Plan_DateCaption">
+          <DataField>Dispatch_Plan_DateCaption</DataField>
+        </Field>
+        <Field Name="Overall_Shortage_Caption">
+          <DataField>Overall_Shortage_Caption</DataField>
+        </Field>
+        <Field Name="Shortage___To_Be_Purchase_Qty__For_That_DayCaption">
+          <DataField>Shortage___To_Be_Purchase_Qty__For_That_DayCaption</DataField>
+        </Field>
+        <Field Name="Required_QTYCaption">
+          <DataField>Required_QTYCaption</DataField>
+        </Field>
+        <Field Name="Lead_TimeCaption">
+          <DataField>Lead_TimeCaption</DataField>
+        </Field>
+        <Field Name="UOMCaption">
+          <DataField>UOMCaption</DataField>
+        </Field>
+        <Field Name="ItemCaption">
+          <DataField>ItemCaption</DataField>
+        </Field>
+        <Field Name="Sale_Order_No_Caption">
+          <DataField>Sale_Order_No_Caption</DataField>
+        </Field>
+        <Field Name="Sales_Line_Document_Type">
+          <DataField>Sales_Line_Document_Type</DataField>
+        </Field>
+        <Field Name="Sales_Line_Line_No_">
+          <DataField>Sales_Line_Line_No_</DataField>
+        </Field>
+        <Field Name="Sales_Line_No_">
+          <DataField>Sales_Line_No_</DataField>
+        </Field>
+        <Field Name="Planned_Purchase_Date__Control1102154035">
+          <DataField>Planned_Purchase_Date__Control1102154035</DataField>
+        </Field>
+        <Field Name="Schedule2_Schedule2__Material_Required_Date_">
+          <DataField>Schedule2_Schedule2__Material_Required_Date_</DataField>
+        </Field>
+        <Field Name="Dum__Reorder_Quantity__Control1102154037">
+          <DataField>Dum__Reorder_Quantity__Control1102154037</DataField>
+        </Field>
+        <Field Name="Dum__Reorder_Quantity__Control1102154037Format">
+          <DataField>Dum__Reorder_Quantity__Control1102154037Format</DataField>
+        </Field>
+        <Field Name="To_be_Shipped_Qty__Dum__Maximum_Inventory__Control1102154038">
+          <DataField>To_be_Shipped_Qty__Dum__Maximum_Inventory__Control1102154038</DataField>
+        </Field>
+        <Field Name="To_be_Shipped_Qty__Dum__Maximum_Inventory__Control1102154038Format">
+          <DataField>To_be_Shipped_Qty__Dum__Maximum_Inventory__Control1102154038Format</DataField>
+        </Field>
+        <Field Name="Schedule2__To_be_Shipped_Qty_">
+          <DataField>Schedule2__To_be_Shipped_Qty_</DataField>
+        </Field>
+        <Field Name="Schedule2__To_be_Shipped_Qty_Format">
+          <DataField>Schedule2__To_be_Shipped_Qty_Format</DataField>
+        </Field>
+        <Field Name="Dum__Safety_Lead_Time__Control1102154040">
+          <DataField>Dum__Safety_Lead_Time__Control1102154040</DataField>
+        </Field>
+        <Field Name="Dum__Base_Unit_of_Measure_">
+          <DataField>Dum__Base_Unit_of_Measure_</DataField>
+        </Field>
+        <Field Name="Schedule2_Description">
+          <DataField>Schedule2_Description</DataField>
+        </Field>
+        <Field Name="Schedule2__Document_No__">
+          <DataField>Schedule2__Document_No__</DataField>
+        </Field>
+        <Field Name="Schedule_Bout_s_PlanCaption">
+          <DataField>Schedule_Bout_s_PlanCaption</DataField>
+        </Field>
+        <Field Name="Planned_Purchase_DateCaption_Control1102154015">
+          <DataField>Planned_Purchase_DateCaption_Control1102154015</DataField>
+        </Field>
+        <Field Name="Dispatch_Plan_DateCaption_Control1102154016">
+          <DataField>Dispatch_Plan_DateCaption_Control1102154016</DataField>
+        </Field>
+        <Field Name="Overall_Shortage_Caption_Control1102154017">
+          <DataField>Overall_Shortage_Caption_Control1102154017</DataField>
+        </Field>
+        <Field Name="Shortage___To_Be_Purchase_Qty__For_That_DayCaption_Control1102154018">
+          <DataField>Shortage___To_Be_Purchase_Qty__For_That_DayCaption_Control1102154018</DataField>
+        </Field>
+        <Field Name="Required_QTYCaption_Control1102154019">
+          <DataField>Required_QTYCaption_Control1102154019</DataField>
+        </Field>
+        <Field Name="Lead_TimeCaption_Control1102154020">
+          <DataField>Lead_TimeCaption_Control1102154020</DataField>
+        </Field>
+        <Field Name="UOMCaption_Control1102154021">
+          <DataField>UOMCaption_Control1102154021</DataField>
+        </Field>
+        <Field Name="ItemCaption_Control1102154022">
+          <DataField>ItemCaption_Control1102154022</DataField>
+        </Field>
+        <Field Name="Sale_Order_No_Caption_Control1102154033">
+          <DataField>Sale_Order_No_Caption_Control1102154033</DataField>
+        </Field>
+        <Field Name="Schedule2_Document_Type">
+          <DataField>Schedule2_Document_Type</DataField>
+        </Field>
+        <Field Name="Schedule2_Document_Line_No_">
+          <DataField>Schedule2_Document_Line_No_</DataField>
+        </Field>
+        <Field Name="Schedule2_Line_No_">
+          <DataField>Schedule2_Line_No_</DataField>
+        </Field>
+        <Field Name="Schedule2_No_">
+          <DataField>Schedule2_No_</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

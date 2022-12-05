@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-IN" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 1157701100 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales - Prepayment Invoice %1</source>
+          <target>Sales - Prepayment Invoice %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AMC_SAL_INVOICE - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 1157701100 - NamedType 2674614368" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Registration No.</source>
+          <target>Company Registration No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AMC_SAL_INVOICE - NamedType CompanyRegistrationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1157701100 - NamedType 2894793601" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer GST Reg No.</source>
+          <target>Customer GST Reg No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AMC_SAL_INVOICE - NamedType CustomerRegistrationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Production Order</source>
+          <target>Refresh Production Order</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 39585143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scheduling direction</source>
+          <target>Scheduling direction</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control Direction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 39585143 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Forward,Back</source>
+          <target>Forward,Back</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control Direction - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 1592581304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate</source>
+          <target>Calculate</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control Calculate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 3141544492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <target>Lines</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control CalcLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 2973850198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Routings</source>
+          <target>Routings</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control CalcRoutings - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 4274096307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Component Need</source>
+          <target>Component Need</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control CalcComponents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 1484878399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse</source>
+          <target>Warehouse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control Warehouse - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 3348213207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Inbound Request</source>
+          <target>Create Inbound Request</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control CreateInbRqst - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 585314451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Alternate PCB</source>
+          <target>Warehouse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control Alternate PCB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - Control 2390990127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AlternatePCBReplace</source>
+          <target>Create Inbound Request</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - Control AlternatePCBReplace - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refreshing Production Orders...\\</source>
+          <target>Refreshing Production Orders...\\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status         #1##########\</source>
+          <target>Status         #1##########\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.            #2##########</source>
+          <target>No.            #2##########</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Routings must be calculated, when lines are calculated.</source>
+          <target>Routings must be calculated, when lines are calculated.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Component Need must be calculated, when lines are calculated.</source>
+          <target>Component Need must be calculated, when lines are calculated.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more of the lines on this %1 require special warehouse handling. The %2 for these lines has been set to blank.</source>
+          <target>One or more of the lines on this %1 require special warehouse handling. The %2 for these lines has been set to blank.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 466643740 - NamedType 2614039046" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Components for production order %1 have already been picked. Do you want to continue?</source>
+          <target>Components for production order %1 have already been picked. Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='Production order no.: Components for production order 101001 have already been picked. Do you want to continue?'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Refresh Production Order - NamedType DeletePickedLinesQst</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

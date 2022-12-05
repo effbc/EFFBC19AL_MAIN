@@ -1,0 +1,55 @@
+pageextension 70002 AdministratorRoleCenterExt extends "Administrator Role Center"
+{
+    
+    layout
+    {
+
+
+        modify("Control 1900724808")
+        {
+
+
+            ShowCaption = false;
+        }
+
+      
+        modify("Control 1900724708")
+        {
+
+            
+            ShowCaption = false;
+        }
+
+        
+
+        modify("Control 1903012608")
+        {
+
+           
+
+            Enabled = false;
+
+           
+        }
+
+      
+
+    }
+    actions
+    {
+
+       
+        modify("Action 21")
+        {
+
+           
+
+            Promoted = false;
+
+           
+        }
+
+        
+    }
+}
+
